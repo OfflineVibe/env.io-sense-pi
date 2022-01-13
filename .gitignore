@@ -1,0 +1,7 @@
+src/__pycache__
+src/modules/__pycache__
+
+docker-compose.yml
+docker-compose.envio.yml
+docker-compose.adafruit.yml
+todo.md

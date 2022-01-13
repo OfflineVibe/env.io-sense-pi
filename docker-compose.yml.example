@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  envio-sense-pi:
+    build:
+      context: .
+    environment:
+      - SERVICE=adafruit
+      - APIKEY=
+      - USER=
+      - FEED=
+      - SENSOR=
+    restart: unless-stopped
